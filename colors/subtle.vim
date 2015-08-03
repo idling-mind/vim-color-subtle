@@ -27,11 +27,11 @@ hi FoldColumn   guifg=tan            guibg=grey30   gui=none
 hi IncSearch    guifg=#eeeeee        guibg=#5faf5f   cterm=NONE           ctermfg=255    ctermbg=71
 hi LineNr       guifg=#666666        guibg=#303030   cterm=NONE           ctermfg=242    ctermbg=236
 hi ModeMsg      guifg=SkyBlue        gui=none
-hi MoreMsg      guifg=SeaGreen       gui=none
+hi MoreMsg      guifg=#5faf5f        ctermfg=71     ctermbg=NONE
 hi NonText      guifg=#666666     gui=none  cterm=NONE           ctermfg=242    ctermbg=NONE
-hi Question     guifg=springgreen    gui=none
+hi Question      guifg=#5faf5f        ctermfg=71     ctermbg=NONE
 hi Search       guifg=#eeeeee        guibg=#5fafaf  gui=none   cterm=NONE           ctermfg=255    ctermbg=73
-hi SpecialKey   guifg=cyan           gui=none
+hi SpecialKey   guifg=#5faf5f        ctermfg=71     ctermbg=NONE
 hi StatusLine   guifg=#5fafaf        gui=bold,reverse   cterm=BOLD,REVERSE   ctermfg=73     ctermbg=NONE
 hi StatusLineNC guifg=#8a8a8a        guibg=#585858   gui=none   cterm=NONE           ctermfg=245    ctermbg=240
 hi Title        guifg=indianred      gui=none
@@ -66,3 +66,4 @@ hi Type         guifg=#5fafaf           gui=none   cterm=NONE           ctermfg=
 hi Special      guifg=#af875f    gui=none   cterm=NONE           ctermfg=137    ctermbg=NONE
 hi Ignore       guifg=grey40         gui=none
 hi Todo         guifg=#ffd75f      gui=reverse   cterm=REVERSE        ctermfg=221    ctermbg=NONE
+
