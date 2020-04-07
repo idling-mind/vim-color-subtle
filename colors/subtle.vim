@@ -10,7 +10,7 @@ if version > 580
 	syntax reset
     endif
 endif
-let g:colors_name="Subtle"
+let g:colors_name="subtle"
 
 hi Normal	guifg=#bcbcbc guibg=#262626 gui=none   cterm=NONE           ctermfg=250    ctermbg=235 
 
